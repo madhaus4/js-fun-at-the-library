@@ -1,7 +1,3 @@
-// function createTitle() {
-//   'Oath of Sunshine';
-// }
-
 module.exports = {
   createTitle,
   buildMainCharacter,
@@ -54,5 +50,4 @@ function writeBook(bookTitle, bookCharacter, genre) {
 
 function editBook(book) {
   book.pageCount = book.pageCount * .75
-  return book.pageCount;
 };
